@@ -1,6 +1,6 @@
 FROM ubuntu
 MAINTAINER nachiketasharma89@gmail.com
-RUN sudo apt-get update
+RUN apt-get update
 RUN apt install -y apache2
 RUN apt install  -y zip
 RUN apt install  -y unzip
